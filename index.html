@@ -28,7 +28,23 @@
 
     <div class="container">
       <section id="main_content">
-        <h3>MuFiP is intended to be a good fixed point library</h3>
+        <h3>Motivation</h3>
+	<p>I have not so far found a good library for
+	fixed point arithmetics in C++ that is usefull for
+	bitmunipulation and also integrate well with normal C++ types.</p>
+
+	<h3>Intended Structure</h3>
+
+	This library should support fixed size signed and unsigned
+	integeras as well as signed and unsgiend fractional
+	numbers. It might even include a signed unlimited bitfield
+	type. All types should be interoperable with eachother in
+	arithmetich expressions with deterministic results and type
+	resolutions.
+
+	<h3>Bit Operations</h3> An important aspect of the library is
+	to be able to support bit and bit field operations as is done
+	in e.g. Verilog or VHDL.
       </section>
     </div>
 
